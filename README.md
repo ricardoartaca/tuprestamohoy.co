@@ -1,3 +1,5 @@
+Author: Ricardo Rojas @reddrum77
+
 tuprestamohoy.co
 ================
 
