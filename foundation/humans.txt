@@ -1,0 +1,47 @@
+                            
+/* TEAM */
+
+                            
+Your title: Ricardo Jose Rojas Morales.
+
+                            
+Site: email, link to a contact form, etc.
+
+                            
+Twitter: @reddrum77
+
+                            
+Location: Palmira, Colombia.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Santiago Escandon
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2014/03/27 
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components: Modernizr, jQuery, etc.
+
+                            
+Software: Sublime, Git,
+
+

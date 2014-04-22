@@ -1,0 +1,171 @@
+@font-face {
+   font-family: 'icomoon';
+   src:url('../fonts/icomoon.eot?-rafmaf');
+   src:url('../fonts/icomoon.eot?#iefix-rafmaf') format('embedded-opentype'),
+      url('../fonts/icomoon.woff?-rafmaf') format('woff'),
+      url('../fonts/icomoon.ttf?-rafmaf') format('truetype'),
+      url('../fonts/icomoon.svg?-rafmaf#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+   font-family: 'icomoon';
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-circle:before {
+   content: "\f058";
+}
+.icon-phone-square:before {
+   content: "\f098";
+}
+
+
+li
+{
+   list-style: none;
+}
+figure
+{
+   padding: 0px;
+   margin: 10px auto;
+}
+.tel{
+   color: white;
+   font-size: .8em;
+}
+.cel
+{
+   color: #134362;
+   font-size: 1.3em;
+   margin: 2em auto;
+}
+.icon_tel:before
+{
+   color: #134362;
+   content: "\f098";
+   font-family: 'icomoon';
+   font-size: 2em;
+   margin-right: 5px;
+}
+.icon_tel_up:before
+{
+   color: #724088;
+   content: "\f098";
+   font-family: 'icomoon';
+   font-size: 4em;
+   
+}
+.icon_check:before
+{
+   color: #efaa02;
+   content: "\f058";
+   font-family: 'icomoon';
+   font-size: 1.3em;
+}
+.border_sedes
+{
+   border-left: solid 2px #134362;
+}
+.center
+{
+   text-align: center;
+}
+.right{
+   float: right;
+}
+.left
+{
+   float: left;
+}
+.content
+{
+   background: linear-gradient(#1d5e82 80%, #CCC);     
+}
+.content_mapa
+{
+   color: white;
+   background-color: #CCC;
+   padding: 1.6em;
+}
+.mayus
+{
+   text-transform: uppercase;
+}
+.margin
+{
+   margin: .7em auto;
+}
+.margin_phone
+{
+   margin-top: 1.3em;
+}
+.servicios
+{
+   background-color: rgba(255, 255, 255, 0.5);
+   padding: 1em;
+   border-radius: .6em;
+}
+.sedes
+{
+   background-color: #efaa02;
+   padding: .8em;
+   padding-top: 3em; 
+   overflow: hidden;
+   height: 200px;
+   width: 460px;
+}
+.sedes_borde
+{
+   border-style: solid;
+   border-width: 1px;
+   border-color: #efaa02;
+   padding: .5em;
+   overflow: hidden;
+   margin: 4em auto;
+   width: 480px;
+}
+.slogan
+{
+   font-size: 1.5em;
+}
+.azul
+{
+   color: #134362;
+}
+.mostaza
+{
+   color: #efaa02;
+}
+
+
+.blanco
+{
+   color: white;
+}
+.gris
+{
+   color: #e8e9eb;
+}
+.espaciado
+{
+   line-height: 2;
+}
+.footer
+{
+   background-color: #444242;
+   border-top: solid 3px #efaa02;
+   color: white;
+   padding: 1em;
+}
+
+
