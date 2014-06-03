@@ -34,7 +34,7 @@ require_once("libs/class.phpmailer.php");
 	   $mail->Send();
 	   echo "<script>
 		     alert('Hemos recibido su solicitud, pronto nos comunicaremos con usted.');
-		     location.href='index.php';
+		     location.href='gracias.php';
 		     </script>"; 
 
 		    exit;
@@ -43,31 +43,30 @@ require_once("libs/class.phpmailer.php");
 <!doctype html>
 <html lang="es">
 <head>
-    <title>PréstamosParaLibreInversión.co</title>
+	<title>PréstamosParaLibreInversión.co</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
 	<meta name="description" content="Prestamos Para Libre Inversión tiene como misión brindarte apoyo y soluciones financieras para tu vida, préstamos de dinero rapido, fácil y efectivo para tus proyectos, te damos cualquier clase de crédito, credito facil e inmediato, credito para vivienda, carro, para pagar deudas,creditos y prestamos para libre inversión en bogota, medellin y cali, otorgamos préstamos inmediatos sin codeudor o fiador, sin papeleo, ni trámites complicados.
 
 	Somos Una empresa comprometida con el financiamiento de tus necesidades, dinero rapido en tus manos y a una tasa muy baja en el mercado, del 0,3% fija mensual." />
-	<meta name="author" content="@reddrum77">
-	<link rel="stylesheet" href="css/estilos.css">
+	<meta name="author" content="Ricardo Rojas">
 	<link rel="stylesheet" href="foundation/css/foundation.css" />
+	<link rel="stylesheet" href="css/estilos.css">
 	 <link rel="author" href="humans.txt" />
     <script src="foundation/js/vendor/modernizr.js"></script>
     <script src="js/prefixfree.js"></script>
-	
 </head>
 <body>
 	<header class="row">
       <div class="small-12 medium-6 large-6 columns">
         <figure>
-        	<img class="logo" src="img/logo.png" width="100" height="100" alt="Préstamos para libre inversión">
+        	<img class="logo" src="img/logo.png" alt="">
         	<span class="slogan azul">PréstamosParaLibre</span><span class="slogan mostaza">Inversión.co</span>
         </figure>
       </div>
       <div class="small-12 medium-6 large-6 columns">
-        <img  class="margin_phone" src="img/phone_azul.png" width="60" height="60" alt="">
-        <span class="right cel"><strong>3103241060 - 3207532215 -3204102419</strong></span>
+        <img  class="margin_phone" src="img/phone_azul.png" alt="Telefonos">
+        <span class="cel">3103241060 - 3207532215 -3204102419</span>
       </div>
     </header>
 
@@ -119,10 +118,10 @@ require_once("libs/class.phpmailer.php");
 							<h3 class="mostaza center mayus">
 								Aplicar es gratis
 							</h3>
-							<h5 class="blanco center">
+							<h6 class="blanco center">
 								Sin trámites molestos, sin codeudores,  
                     			sin hipotecas y pignoraciones
-							</h5>
+							</h6>
 							<br>
 							<div class="servicios">
 								<li class="espaciado blanco icon_check">Préstamos desde $3'000.000</li>
@@ -160,8 +159,9 @@ require_once("libs/class.phpmailer.php");
 								
 								
 							<div>
+								<input type="hidden" name="redirect" class="configuration" value="http://gracias.myinstapage.com">
 								<input type="hidden" name="action" value="register">
-								<button type="submit" class="button expand mayus">
+								<button type="submit" class="button expand  mayus" >
 									Solicitar Credito
 								</button>
 							</div>
@@ -177,38 +177,31 @@ require_once("libs/class.phpmailer.php");
 						<div class="sedes_borde">
 							<div class="sedes">
 								<div class="row">
-									<div class="small-12 medium-12 large-4 columns">
-										<h3 class="mayus center blanco">bogota</h3>
-										<span class="icon_tel left"></span>
-										<li class="tel">(1) 3878885</li>
-										<li class="tel">(1) 3010177</li>
-										<li class="tel">(1) 8013155</li>
-									</div>
-									<div class="small-12 medium-12 large-4 columns border_sedes">
-										<h3 class="mayus center blanco">cali</h3>
-										<span class="icon_tel left"></span>
-										<li class="tel">(2) 8912429</li>
-									</div>
-									<div class="small-12 medium-12 large-4 columns border_sedes">
-										<h3 class="mayus center blanco">medellin</h3>
-										<span class="icon_tel left"></span>
-										<li class="tel">(4) 6045618</li>
-									</div>
-									
+									<h3 class="mayus azul center">bogota</h3>
+									<li class="espaciado center tel">(1) 4790849</li>
 								</div>
-								
+								<hr>
+								<div class="row">
+									<h3 class="mayus azul center">cali</h3>
+									<li class="espaciado center tel">(2) 8912429</li>
+								</div>
+								<hr>
+								<div class="row">
+									<h3 class="mayus azul center">medellin</h3>
+									<li class="espaciado center tel">(4) 6045618</li>
+								</div>	
 							</div>
+							
 						</div>
 					</article>
 				</section>
 				<footer class="row footer">
-					
-						<p class="mayus center">prestamos para libre inversion ©Copyright 2014</p>
-						
-						<p class="mayus center">Colombia</p>
+					<div class="large-7 large-centered columns">
+						<p class="center text_mob mayus">prestamos para libre inversion © Copyright 2014</p>
+						<p class="text_mob mayus center">Colombia</p>
 							
 						
-					
+					</div>
 				</footer>
 			</section>
 		</section>
@@ -222,23 +215,19 @@ require_once("libs/class.phpmailer.php");
     <script>
       $(document).foundation();
     </script>
-    <!-- Google Code para etiquetas de remarketing -->
-    
-
-	<script type="text/javascript">
-	/* <![CDATA[ */
-	var google_conversion_id = 971415324;
-	var google_custom_params = window.google_tag_params;
-	var google_remarketing_only = true;
-	/* ]]> */
+    <script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 971415324;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
 	</script>
 	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 	</script>
 	<noscript>
-	<div style="display:inline;">
-	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971415324/?value=0&amp;guid=ON&amp;script=0"/>
-	</div>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971415324/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
 	</noscript>
-    
 </body>
 </html>

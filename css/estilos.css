@@ -46,8 +46,9 @@ figure
 .cel
 {
    color: #134362;
-   font-size: 1.3em;
-   margin: 2em auto;
+   font-size: .8em;
+   
+   
 }
 .icon_tel:before
 {
@@ -87,15 +88,19 @@ figure
 {
    float: left;
 }
+.logo
+{
+   width: 65px;
+   height: 65px;
+}
 .content
 {
-   background: linear-gradient(#1d5e82 80%, #CCC);     
+   background: #1d5e82;
 }
 .content_mapa
 {
    color: white;
    background-color: #CCC;
-   padding: 1.6em;
 }
 .mayus
 {
@@ -107,22 +112,25 @@ figure
 }
 .margin_phone
 {
-   margin-top: 1.3em;
+   
+   
+   height: 20px;
+   width: 20px;
 }
 .servicios
 {
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: transparent;
    padding: 1em;
    border-radius: .6em;
+   
 }
 .sedes
 {
    background-color: #efaa02;
-   padding: .8em;
-   padding-top: 3em; 
-   overflow: hidden;
-   height: 200px;
-   width: 460px;
+    
+   
+   
+   
 }
 .sedes_borde
 {
@@ -130,13 +138,13 @@ figure
    border-width: 1px;
    border-color: #efaa02;
    padding: .5em;
-   overflow: hidden;
-   margin: 4em auto;
-   width: 480px;
+   
+   margin: 2em auto;
+   
 }
 .slogan
 {
-   font-size: 1.5em;
+   font-size: .9em;
 }
 .azul
 {
@@ -152,6 +160,14 @@ figure
 {
    color: white;
 }
+.gracias{
+   background-color: #134362;
+   border: 1px solid #1E1E1E;
+   box-shadow: 1px 2px 1px rgba(255, 255, 255, 1);
+   color: #1E1E1E;
+   padding: 1em;
+   width: 400px;
+}
 .gris
 {
    color: #e8e9eb;
@@ -166,6 +182,69 @@ figure
    border-top: solid 3px #efaa02;
    color: white;
    padding: 1em;
+}
+.text_mob
+{
+   font-size: .7em;
+}
+
+@media screen and (min-width:768px){
+   .cel
+   {
+      float: left;
+      padding: 0;
+      margin: 3em 2em;
+   }
+   .logo 
+   {
+      width: 85px;
+      height: 85px;    
+   }
+   .margin_phone
+   {
+      float: left;
+      height: 40px;
+      margin-top: 1.3em;
+      width: 40px;
+   }
+   .slogan
+   {
+      font-size: 1.1em;
+   }  
+}
+
+@media screen and (min-width: 980px){
+   .cel
+   {
+      font-size: 1.1em;
+      float: left;
+      margin: 3em 2em;
+   }
+   .content
+   {
+      background: linear-gradient(#1d5e82 80%, #CCC);
+   }
+   .logo
+   {
+      height: 120px;
+      width: 120px;
+
+   }
+   .margin_phone
+   {
+      margin-top: 2.3em;
+      float: left;
+      height: 50px;
+      width: 50px;
+   }
+   .slogan
+   {
+      font-size: 1.4em;
+   }
+   .servicios
+   {
+      background-color: rgba(255, 255, 255, 0.5);
+   }
 }
 
 
